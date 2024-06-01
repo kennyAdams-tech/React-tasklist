@@ -37,7 +37,7 @@ const App = () => {
       <TaskInput addTask={addTask}/>
 
       <div className="todolist">
-        <span className='todo'>TODO</span>
+        <span className='todo'>TASKS:</span>
         <ul className='list-item'>{todolist.map((task,key) =>
          <TodoItems
          key={key}
